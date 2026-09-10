@@ -1,1 +1,3 @@
 curl -sSL https://raw.githubusercontent.com/sundowndev/phoneinfoga/master/support/scripts/install | bash
+
+find /usr/local/bin /usr/bin "$HOME" -type f -name "phoneinfoga" 2>/dev/null
